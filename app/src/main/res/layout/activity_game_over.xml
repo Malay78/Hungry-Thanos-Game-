@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vision"
+    tools:context=".GameOver">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="266dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="83dp"
+        android:text="Game Over"
+        android:textColor="#0D4775"
+        android:textSize="52sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="168dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginBottom="40dp"
+        android:text="Restart"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/displayScore"
+        android:layout_width="207dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="202dp"
+        android:text="Score"
+        android:textColor="#80C643"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+</RelativeLayout>

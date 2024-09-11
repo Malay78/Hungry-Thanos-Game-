@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/t"
+    tools:context=".Rules">
+
+    <TextView
+        android:id="@+id/Yellow"
+        android:layout_width="395dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="336dp"
+        android:text="Yellow Ball = 10 Points"
+        android:textColor="#FFC107"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <TextView
+        android:id="@+id/green"
+        android:layout_width="395dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="408dp"
+        android:text="Green Ball = 15 Points"
+        android:textColor="@color/design_default_color_secondary"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <TextView
+        android:id="@+id/red"
+        android:layout_width="395dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="481dp"
+        android:text="Red Ball = Danger"
+        android:textColor="#E91E63"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="87dp"
+        android:text="Let's Play"
+        android:textSize="34sp" />
+</RelativeLayout>
